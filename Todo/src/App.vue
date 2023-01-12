@@ -11,7 +11,7 @@ import TodoList from './components/TodoList.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <TodoList msg="Vite + Vue" />
+  <TodoList/>
 </template>
 
 <style >
