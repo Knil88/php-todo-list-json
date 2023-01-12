@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello World</h1>
+   
     <ul>
       <li
         v-for="(todoElem, ind) in todoList"
@@ -20,7 +20,7 @@
 
 import axios from 'axios';
 
-const API_URL = "http://localhost/php-todo-list-json/phpApi/api.php";
+const API_URL = "http://localhost/php-todo-list-json/phpApi/Api.php";
 
 export default {
   name: 'JsonTest',
@@ -43,7 +43,7 @@ export default {
         'newTodo': this.newTodo
       }};
 
-      axios.get(API_URL + "api-create-todo.php", params)
+      axios.get(API_URL + "Api_2", params)
            .then(() => {
 
              this.getAllData();
@@ -51,7 +51,7 @@ export default {
     },
     getAllData() {
 
-      axios.get(API_URL + "api.php")
+      axios.get(API_URL + "Api.php")
          .then(res => {
 
             const data = res.data;

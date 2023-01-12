@@ -1,6 +1,6 @@
 <?php
 
-header("Access-Control-Allow-Origin: http://localhost:8080");
+header("Access-Control-Allow-Origin: http://localhost/php-todo-list-json/phpApi/Api_2.php");
 header("Access-Control-Allow-Headers: X-Requested-With");
 
 header('Content-Type: application/json');
