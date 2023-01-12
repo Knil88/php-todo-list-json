@@ -1,5 +1,5 @@
 <script setup>
-import TodoLst from './components/TodoLst.vue'
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import TodoLst from './components/TodoLst.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <TodoLst msg="Vite + Vue" />
+  <TodoList msg="Vite + Vue" />
 </template>
 
 <style >
